@@ -18,7 +18,7 @@ export default function Services() {
           <div className="services_section_2">
             <div className="row">
               <div className="col-md-4">
-                <div>
+                <div className="zoom">
                   <img src={img1} className="services_img" />
                 </div>
                 <div className="btn_main">
@@ -26,7 +26,7 @@ export default function Services() {
                 </div>
               </div>
               <div className="col-md-4">
-                <div>
+                <div className="zoom">
                   <img src={img2} className="services_img" />
                 </div>
                 <div className="btn_main active">
@@ -34,7 +34,7 @@ export default function Services() {
                 </div>
               </div>
               <div className="col-md-4">
-                <div>
+                <div className="zoom">
                   <img src={img3} className="services_img" />
                 </div>
                 <div className="btn_main">
