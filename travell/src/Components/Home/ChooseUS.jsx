@@ -21,7 +21,7 @@ export default function ChooseUS() {
           <div className="newsletter_box">
             <h1 className="let_text">Let Start Talk with Us</h1>
             <div className="getquote_bt">
-              <Link to="#">Get A Quote</Link>
+              <button className="btn btn-outline-danger text-dark">Get A Quote</button>
             </div>
           </div>
         </div>

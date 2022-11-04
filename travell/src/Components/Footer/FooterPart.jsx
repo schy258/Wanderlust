@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import insta from '../../Images/images/instagram-icon.png'
+import mail from '../../Images/images/mail-icon.png'
+
+
 
 export default function FooterPart() {
   return (
@@ -14,24 +18,31 @@ export default function FooterPart() {
               name="Enter your email"
             />
             <div className="subscribe_bt">
-              <Link to="#">Subscribe</Link>
+              <Link to="#">Join Us</Link>
             </div>
           </div>
           <div className="location_main">
-            <div className="call_text">
-              <img src="images/call-icon.png" />
+            {/* <div className="call_text">
+              <img src={call} />
             </div>
             <div className="call_text">
-              <Link to="#">Call +01 1234567890</Link>
+              <Link to="#">Call +91-8826 080 881</Link>
+            </div> */}
+            <div className="call_text">
+              <img src={insta} />
             </div>
             <div className="call_text">
-              <img src="images/mail-icon.png" />
+              <Link to="#">small_travelling_bag</Link>
             </div>
             <div className="call_text">
-              <Link to="#">demo@gmail.com</Link>
+              <img src={mail} />
             </div>
+            <div className="call_text">
+              <Link to="#">sourabhmediainfo@gmail.com</Link>
+            </div>
+            
           </div>
-          <div className="social_icon">
+          {/* <div className="social_icon">
             <ul>
               <li>
                 <Link to="#">
@@ -39,7 +50,7 @@ export default function FooterPart() {
                 </Link>
               </li>
               <li>
-                <Link to="#">
+                <Link to="#" >
                   <img src="images/twitter-icon.png" />
                 </Link>
               </li>
@@ -54,7 +65,7 @@ export default function FooterPart() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

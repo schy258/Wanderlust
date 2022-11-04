@@ -14,7 +14,7 @@ export default function Video() {
     <>
       <div className="blog_section layout_padding">
         <div className="container">
-          <h1 className="blog_taital">See Our Video</h1>
+          <h1 className="blog_taital neon">See MY Video</h1>
           <p className="blog_text">
             many variations of passages of Lorem Ipsum available, but the
             majority have suffered alteration in some form, by injected humour,
@@ -27,7 +27,7 @@ export default function Video() {
               </Link>
               <Modal show={show} onHide={handleClose}>
                 <Modal.Body>
-                  <ReactPlayer url="https://youtu.be/RGKi6LSPDLU" />
+                  <ReactPlayer url="https://www.instagram.com/reel/CkTSVLMje7J/?utm_source=ig_web_copy_link" />
                 </Modal.Body>
               </Modal>
             </div>
