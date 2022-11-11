@@ -38,7 +38,7 @@ export default function FooterPart() {
               <img src={mail} />
             </div>
             <div className="call_text">
-              <Link to="#">sourabhmediainfo@gmail.com</Link>
+              <Link to="#">query.smalltravellingbag@gmail.com</Link>
             </div>
             
           </div>

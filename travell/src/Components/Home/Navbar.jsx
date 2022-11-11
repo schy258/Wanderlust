@@ -34,7 +34,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="about.html">
+                  <Link className="nav-link" to="/header">
                     About
                   </Link>
                 </li>
@@ -59,7 +59,7 @@ export default function Navbar() {
         </div>
         <div className="container-fluid">
           <div className="logo">
-            <Link to="index.html">
+            <Link to="/">
               <img
                 src={logo}
                 alt="image"
@@ -79,7 +79,7 @@ export default function Navbar() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/">About</Link>
+                <Link to="/header">About</Link>
               </li>
               <li>
                 <Link to="/">Services</Link>
